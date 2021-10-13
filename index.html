@@ -138,32 +138,32 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px">3D Pose Transfer with Correspondence Learning and Mesh Refinement</span>
+		<span style="font-size:36px">3D Pose Transfer with Correspondence Learning and Mesh Refinement</span><br>
 		<span style="font-size:25px;line-height:2.0">NeurIPS 2021</span><br>
-		<table align=center width=600px>
-			<table align=center width=600px>
+		<table align=center width=1100px>
+			<table align=center width=1100px>
 				<tr>
-					<td align=center width=100px>
+					<td align=center width=250px>
 						<center>
 							<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=4Yiz6gIAAAAJ&hl">Chaoyue Song</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=250px>
 						<center>
 							<span style="font-size:22px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Jiacheng Wei</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=250px>
 						<center>
 							<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=qtGY5T4AAAAJ&hl">Ruibo Li</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=250px>
 						<center>
 							<span style="font-size:22px"><a href="https://sites.google.com/site/fayaoliu/">Fayao Liu</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=250px>
 						<center>
 							<span style="font-size:22px"><a href="https://guosheng.github.io/">Guosheng Lin</a></span>
 						</center>
@@ -197,13 +197,6 @@
 				</td>
 			</tr>
 		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
-				</td>
-			</tr>
-		</table>
 	</center>
 
 	<hr>
@@ -212,7 +205,7 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				3D pose transfer is one of the most challenging 3D generation tasks. It aims to transfer the pose of a source mesh to a target mesh and keep the identity (e.g., body shape) of the target mesh. Some previous works require key point annotations to build reliable correspondence between the source and target meshes, while other methods do not consider any shape correspondence between sources and targets, which leads to limited generation quality. In this work, we propose a correspondence-refinement network to help the 3D pose transfer for both human and animal meshes. The correspondence between source and target meshes is first established by solving an optimal transport problem. Then, we warp the source mesh according to the dense correspondence and obtain a coarse warped mesh. The warped mesh will be better refined with our proposed Elastic Instance Normalization, which is a conditional normalization layer and can help to generate highquality meshes. Extensive experimental results show that the proposed architecture can effectively transfer the poses from source to target meshes and produce better results with satisfied visual performance than state-of-the-art methods.
 			</td>
 		</tr>
 	</table>
