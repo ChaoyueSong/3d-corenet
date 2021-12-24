@@ -12,7 +12,6 @@ in NeurIPS, 2021.
 
 <img src="files/3dpt.gif" width="60%" height="60%" /> <br>
 
-<b>Notice: haven't finished uploading.</b>
 
 ## Installation
 - Clone this repo:
