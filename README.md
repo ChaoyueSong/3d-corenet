@@ -12,7 +12,7 @@ in NeurIPS, 2021.
 
 <img src="files/3dpt.gif" width="60%" height="60%" /> <br>
 
-Notice: haven't finished uploading.
+<b><font color="#FF0000">Notice: haven't finished uploading.</font></b>
 
 ## Installation
 - Clone this repo:
