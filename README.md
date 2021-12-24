@@ -47,7 +47,7 @@ python test.py --dataset_mode human --dataroot [Your data path] --gpu_ids 0
 The results will be saved in `test_results/human/` by default. `human_test_list` is randomly choosed for testing.
 
 #### 2) SMAL (animal) 
-Download the pretrained model from [pretrained model link]() and save them in `checkpoints/animal`. Then run the command 
+Download the pretrained model from [pretrained model link](https://drive.google.com/drive/folders/1v3Iz51MtcYsLoKAu9XAdFG6JmhxLHWJ-?usp=sharing) and save them in `checkpoints/animal`. Then run the command 
 ````bash
 python test.py --dataset_mode animal --dataroot [Your data path] --gpu_ids 0
 ````
