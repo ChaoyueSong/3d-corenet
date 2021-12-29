@@ -1,6 +1,6 @@
 # 3D Pose Transfer with Correspondence Learning and Mesh Refinement
 
-#### [Project](https://chaoyuesong.github.io/3d-corenet/) |   [Paper](https://openreview.net/pdf?id=fG01Z_unHC)
+#### [Project](https://chaoyuesong.github.io/3d-corenet/) |   [Paper](https://openreview.net/pdf?id=fG01Z_unHC) |  [Video (in English)](https://www.youtube.com/watch?v=HjBvPhZSl-o) | [Video (in Chinese)](https://www.bilibili.com/video/BV1rq4y1q7pZ?spm_id_from=333.999.0.0)
 
 **3D Pose Transfer with Correspondence Learning and Mesh Refinement** <br>
 Chaoyue Song,
