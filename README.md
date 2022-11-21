@@ -13,6 +13,9 @@ in NeurIPS, 2021.
 <img src="files/3dpt.gif" width="60%" height="60%" /> <br>
 
 
+## News
+* `07/09/2022` We release our latest work on unsupervised 3D pose transfer. Please check it [here](https://arxiv.org/abs/2211.10278). In this paper, we present X-DualNet, an unsupervised deep learning framework to solve the 3D pose transfer problem in an endto-end fashion. Through extensive experiments on human and animal meshes, we demonstrate X-DualNet achieves comparable performance as the state-of-the-art supervised approaches qualitatively and quantitatively and even outperforms some of them.
+
 ## Installation
 - Clone this repo:
 ```bash
