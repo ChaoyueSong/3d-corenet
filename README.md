@@ -23,8 +23,12 @@ git clone https://github.com/ChaoyueSong/3d-corenet.git
 cd 3d-corenet
 ```
 
-- Install the dependencies. Our code has been tested on Python 3.6, PyTorch 1.8 (previous versions also work). And we also need pymesh.
+- Install the dependencies. Our code has been tested on Python 3.6, PyTorch 1.8 (previous versions also work, plz install it according to your cuda version). We also need pymesh.
 ```bash
+conda create -n 3d_corenet python=3.6
+conda activate 3d_corenet
+# install pytorch and pymesh
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 conda install -c conda-forge pymesh2
 ```
 
