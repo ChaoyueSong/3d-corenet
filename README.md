@@ -58,7 +58,7 @@ Download the pretrained model from [pretrained model link](https://drive.google.
 ````bash
 python test.py --dataset_mode animal --dataroot [Your data path] --gpu_ids 0
 ````
-The results will be saved in `test_results/animal/` by default. `animal_test_list` is randomly choosed for testing.
+The results will be saved in `test_results/animal/` by default. `animal_test_list` is randomly choosed for testing. For the calculation of CD and EMD, please check [TMNet](https://github.com/jnypan/TMNet) and [MSN](https://github.com/Colin97/MSN-Point-Cloud-Completion).
 
 ## Training
 #### 1) SMPL (human) 
