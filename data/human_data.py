@@ -10,7 +10,7 @@ class SMPL_DATA(data.Dataset):
         self.path= dataroot
         self.datapath = []
         for _ in range(4000):
-            identity_i = np.random.randint(0,16)
+            identity_i = np.random.randint(15)
             identity_p = np.random.randint(200,600)
             data_in = [identity_i, identity_p]
             self.datapath.append(data_in)
@@ -20,7 +20,7 @@ class SMPL_DATA(data.Dataset):
         mesh_set = self.datapath[index]
         identity_mesh_i = mesh_set[0]
         identity_mesh_p = mesh_set[1]
-        pose_mesh_i = np.random.randint(0,16)
+        pose_mesh_i = np.random.randint(15)
         pose_mesh_p = np.random.randint(200,600)
         identity_mesh = pymesh.load_mesh(self.path+'id'+str(identity_mesh_i)+'_'+str(identity_mesh_p)+'.obj')
         pose_mesh = pymesh.load_mesh(self.path+'id'+str(pose_mesh_i)+'_'+str(pose_mesh_p)+'.obj')
