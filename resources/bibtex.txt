@@ -1,6 +1,8 @@
 @article{song20213d,
-  title={3D Pose Transfer with Correspondence Learning and Mesh Refinement},
+  title={3d pose transfer with correspondence learning and mesh refinement},
   author={Song, Chaoyue and Wei, Jiacheng and Li, Ruibo and Liu, Fayao and Lin, Guosheng},
-  journal={arXiv preprint arXiv:2109.15025},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={3108--3120},
   year={2021}
 }
